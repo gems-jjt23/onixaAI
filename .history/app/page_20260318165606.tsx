@@ -75,7 +75,7 @@ export default function Home() {
       {/* NAV */}
       <nav style={{position:"fixed",top:0,left:0,right:0,zIndex:100,display:"flex",alignItems:"center",justifyContent:"space-between",padding:"1.4rem 5rem",borderBottom:`1px solid ${BD}`,background:"rgba(7,7,15,0.92)",backdropFilter:"blur(24px)"}}>
         <div style={{fontFamily:H,fontSize:"1.55rem",fontWeight:700,letterSpacing:"-0.03em",lineHeight:1}}>
-          Onixa<span style={{color:P}}>AI</span>
+          Onixa<span style={{color:P}}>.</span>AI
         </div>
         <div style={{display:"flex",gap:"2.8rem"}}>
           {[["Servicios","servicios"],["Demo","demo"],["Precios","precios"],["Contacto","contacto"]].map(([l,id])=>(
@@ -102,11 +102,14 @@ export default function Home() {
           Inteligencia Artificial para negocios colombianos
         </motion.div>
 
-        {/* NOMBRE — una sola línea, OniaxaAI */}
+        {/* NOMBRE */}
         <motion.div initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} transition={{duration:0.85,delay:0.05}}
           style={{position:"relative",zIndex:1,marginBottom:"0.5rem"}}>
           <div style={{fontFamily:H,fontSize:"clamp(5rem,14vw,13rem)",fontWeight:700,lineHeight:0.9,letterSpacing:"-0.04em",color:W}}>
-            Onixa<span style={{color:P}}>AI</span>
+            Onixa
+          </div>
+          <div style={{fontFamily:H,fontSize:"clamp(5rem,14vw,13rem)",fontWeight:700,lineHeight:0.9,letterSpacing:"-0.04em",color:"#a78bfa"}}>
+            .AI
           </div>
         </motion.div>
 
@@ -314,7 +317,7 @@ export default function Home() {
         <div style={{position:"absolute",top:"50%",left:"50%",transform:"translate(-50%,-50%)",width:800,height:500,background:"radial-gradient(ellipse,rgba(124,58,237,0.1) 0%,transparent 70%)",pointerEvents:"none"}}/>
         <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} transition={{duration:0.7}} viewport={{once:true}}>
           <div style={{fontFamily:H,fontSize:"0.78rem",fontWeight:600,letterSpacing:"0.22em",textTransform:"uppercase",color:P,marginBottom:"2rem",position:"relative",zIndex:1,opacity:0.8}}>
-            — OniaxaAI —
+            — Onixa AI —
           </div>
           <h2 style={{fontFamily:H,fontSize:"clamp(3rem,7vw,6rem)",fontWeight:700,letterSpacing:"-0.04em",lineHeight:1,position:"relative",zIndex:1,marginBottom:"2rem"}}>
             ¿Listo para que tu<br/>negocio <span style={{color:P}}>nunca</span><br/>deje de responder?
@@ -340,7 +343,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer style={{borderTop:`1px solid ${BD}`,padding:"2.8rem 5rem",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:"1rem"}}>
         <div style={{fontFamily:H,fontSize:"1.4rem",fontWeight:700,letterSpacing:"-0.03em"}}>
-          Onixa<span style={{color:P}}>AI</span>
+          Onixa<span style={{color:P}}>.</span>AI
         </div>
         <div style={{fontSize:"0.85rem",color:M,fontFamily:BODY}}>© 2025 Onixa AI — Intelligence that moves business</div>
         <div style={{fontSize:"0.85rem",color:M,fontFamily:BODY}}>Colombia → Latinoamérica</div>
